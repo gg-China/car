@@ -1,0 +1,19 @@
+.color {
+    position: absolute;
+    top: 0;
+    z-index: 101;
+    background: #f4f4f4;
+    height: 100%;
+    width: 100%;
+    -webkit-animation: c .2s ease forwards;
+    animation: c .2s ease forwards;
+}
+.color>p{
+    margin: .15rem 0;
+    font-size: .34rem;
+    color: #00afff;
+    background: #fff;
+    text-align: center;
+    line-height: .8rem;
+    height: .8rem;
+}

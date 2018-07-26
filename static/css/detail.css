@@ -1,0 +1,158 @@
+.detail{
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    overflow-y: scroll;
+}
+
+.img{
+    position: relative;
+    height: 3.29rem;
+    overflow: hidden;
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+.img span{
+    position: absolute;
+    bottom: .3rem;
+    right: .3rem;
+    color: #fff;
+    padding: 1px .1rem;
+    border-radius: .2rem;
+    background: rgba(0,0,0,.6);
+    font-size: .24rem;
+}
+
+.info{
+    padding: .36rem .2rem .3rem;
+    background: #fff;
+    position: relative;
+}
+.info p {
+    max-width: 3.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info p:first-child {
+    font-size: .36rem;
+    color: red;
+    font-weight: 500;
+}
+.info p:nth-child(2) {
+    font-size: .26rem;
+    color: silver;
+}
+.info .action {
+    padding-top: .2rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 50%;
+    position: absolute;
+    right: .1rem;
+    top: .22rem;
+}
+.info .action button:last-child {
+    background: #00afff;
+    color: #fff;
+    border-radius: .1rem;
+    font-size: .32rem;
+    height: .7rem;
+    width: 3.45rem;
+    border: none;
+    box-sizing: border-box;
+}
+
+.list .c-type {
+    border-top: .15rem solid #f4f4f4;
+    padding: 0 .3rem;
+    font-size: .32rem;
+    height: .77rem;  
+    background: #fff;      
+}
+.list .c-type span {
+    padding-right: .46rem;
+    font-size: .32rem;
+    line-height: .77rem;
+}
+.list .c-type span.active {
+    color: #3aacff;
+}
+
+.carlist{
+    display: block;
+}
+.carlist>p{
+    padding: 0 .2rem;
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .26rem;
+    color: #999;
+    background: #f4f4f4;
+}
+.carlist ul li{
+    padding: 0 .2rem;
+    border-bottom: .18rem solid #f4f4f4;
+    overflow: hidden;
+    background: #fff;
+}
+
+.carlist ul li p:first-child {
+    padding: .26rem 0 .18rem;
+    font-size: .3rem;
+    line-height: 1;
+    color: #3d3d3d;
+}
+.carlist ul li p:nth-child(2) {
+    color: #bdbdbd;
+    font-size: .26rem;
+}
+.carlist ul li p:nth-child(3) {
+    text-align: right;
+    padding-bottom: .1rem;
+    font-size: .24rem;
+    color: #818181;
+}
+.carlist ul li p:nth-child(3) span:nth-child(2) {
+    font-size: .3rem;
+    color: #ff2336;
+    margin-left: .1rem;
+}
+.carlist ul li button {
+    border: none;
+    border-top: 1px solid #eee;
+    width: 110%;
+    height: .8rem;
+    font-size: .32rem;
+    color: #00afff;
+    background: #fff;
+    font-weight: 500;
+    margin-left: -.3rem;
+}
+
+
+
+
+
+
+
+.bottom{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+    background: #3aacff;
+    height: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom h5{
+    font-size: .34rem;
+    margin-top:.1rem;
+}
